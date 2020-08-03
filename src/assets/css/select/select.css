@@ -1,0 +1,105 @@
+/* --------------头部开始-------------- */
+
+#g-header>a {
+    color: #3C3C3C;
+}
+
+#g-header>span {
+    float: right;
+    color: #3C3C3C;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+
+/* --------------头部结束-------------- */
+
+
+/* ------------------主体部分开始--------------- */
+
+#g-body .mui-slider .mui-segmented-control .mui-active {
+    color: #FF0000;
+}
+
+#g-body .mui-slider .mui-segmented-control>a.price {
+    position: relative;
+}
+
+#g-body .mui-slider .mui-segmented-control>a.price>span.iconfont {
+    font-size: 5px;
+}
+
+#g-body .mui-slider .mui-segmented-control>a.price>span:nth-child(1) {
+    position: absolute;
+    top: -0.1875rem;
+    right: 0.9375rem;
+}
+
+#g-body .mui-slider .mui-segmented-control>a.price>span:nth-child(2) {
+    position: absolute;
+    top: 0.3125rem;
+    right: 0.9375rem;
+}
+
+#g-body .mui-slider .mui-slider-item ul {
+    width: 96%;
+    margin: 0px auto;
+    margin-left: 0.9375rem;
+    background-color: transparent;
+}
+
+#g-body .mui-slider .mui-slider-item ul li {
+    float: left;
+    width: 48%;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 0.1875rem 0.1875rem 10px rgba(0, 0, 0, 0.3);
+    margin-right: 0.3125rem;
+    margin-top: 0.625rem;
+    padding-top: 0rem;
+    padding-left: 0rem;
+}
+
+#g-body .mui-slider .mui-slider-item ul li a {
+    margin: 0px;
+    padding: 0px;
+}
+
+#g-body .mui-slider .mui-slider-item ul li::after {
+    left: 0rem;
+}
+
+#g-body .mui-slider .mui-slider-item ul li a>img {
+    width: 100%;
+    margin-top: 0rem;
+}
+
+#g-body .mui-slider .mui-slider-item ul li a>span {
+    display: block;
+    font-size: 0.5rem;
+    width: 3.75rem;
+    border: 0.0625rem solid #FF734C;
+    color: #FF734C;
+    height: 0.9375rem;
+    text-align: center;
+    line-height: 0.9375rem;
+    border-radius: 0.625rem;
+    margin-left: 0.3125rem;
+}
+
+#g-body .mui-slider .mui-slider-item ul li a>div {
+    font-size: 0.625rem;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#g-body .mui-slider .mui-slider-item ul li a>p {
+    color: #FF0000;
+    text-align: left;
+    padding-top: 0.1875rem;
+    padding-left: 0.3125rem;
+    padding-bottom: 0.625rem;
+}
+
+
+/* ------------------主体部分结束--------------- */

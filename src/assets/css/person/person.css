@@ -1,0 +1,68 @@
+#g-header a{
+	color: #3C3C3C;
+}
+#g-header span{
+	float: right;
+	margin-top: 0.625rem;
+}
+#g-body{
+}
+#g-body>ul>li{
+	
+}
+#g-body #photo{
+	text-align: center;
+}
+#g-body #photo>li>a>img{
+	width: 3.75rem;
+	height: 3.75rem;
+	border-radius: 50%;
+}
+#g-body #photo>li>a>p>input{
+	font-size: 0.75rem;
+	border: none;
+}
+#g-body #photo>li:first-of-type>a::after{
+	content: '';
+}
+#g-body #photo::after,
+#g-body #photo::before{
+	background-color:#fff!important ;
+}
+
+#g-body #list>li>label{
+	width: 20%;
+	float: left;
+	font-size: 0.8125rem;
+	font-weight: 600;
+	color: #3C3C3C;
+}
+#g-body #list>li>input{
+	width: 50%;
+	float: left;
+	height: 1.25rem;
+	font-size: 0.75rem;
+	margin-bottom: 0rem;
+	border: none;
+}
+#g-body #list>li>a.change{
+	display: block;
+	font-size: 0.6875rem;
+	float: right;
+	color: #3C3C3C;
+}
+#g-body #list>li:nth-of-type(4)>a.change{
+	color: #FF734C;
+}
+#g-body #list>li:nth-of-type(5)>p{
+	float: left;
+	width: 3.125rem;
+	color: #3C3C3C;
+	background-color: #fff;
+}
+#g-body #list>li:nth-of-type(5)>p>input{
+	width: 1.25rem;
+}
+#g-body #list>li:last-of-type::after{
+	background-color: transparent;
+}

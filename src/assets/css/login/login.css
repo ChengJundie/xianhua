@@ -1,0 +1,145 @@
+/* ----------------头部---------------------- */
+
+#g-header a {
+    color: #3C3C3C;
+}
+
+#g-header span {
+    color: #3C3C3C;
+    float: right;
+    font-weight: 600;
+}
+
+
+/* ----------------头部----------------------- */
+
+
+/* ----------------登录部分--------------------- */
+
+#g-body h1 {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#g-body h1 img {
+    width: 50%;
+}
+
+#g-body .login-box {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+
+/* #g-body .login-box>div.phone-msg {
+    display: block;
+} */
+
+
+/* #g-body .login-box>div.phone{
+	display: none;
+} */
+
+#g-body .login-box>div.box>p.font {
+    color: #3C3C3C;
+}
+
+#g-body .login-box>div.box>p.inp {
+    position: relative;
+}
+
+#g-body .login-box>div.box>p.inp>input {
+    color: #232628;
+    border: none;
+    font-size: 16px;
+    background-color: #EFEFF4;
+    border-bottom: 2px solid #E9ECF0;
+}
+
+#g-body .login-box>div.box>p.yan-zm>a.forget {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    color: #ff734c;
+}
+
+#g-body .login-box>div.box>p.yan-zm>a.yan-jing>span {
+    font-size: 1.125rem;
+    color: #3C3C3C;
+    position: absolute;
+    top: 0.625rem;
+    right: 4.375rem;
+}
+
+#g-body .login-box>div.box>p.yan-zm>a.yan-jing>span.he {
+    display: block;
+}
+
+#g-body .login-box>div.box>p.yan-zm>a.yan-jing>span.zhang {
+    display: none;
+}
+
+#g-body .login-box>div.box>p.butt>input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 1.5rem;
+    background-color: #ff734c;
+    border: 1px solid #ff734c;
+    text-align: center;
+    color: #fff;
+    font-size: 1.21428571rem;
+    margin-top: 20px;
+}
+
+#g-body .login-box>div.box>p.zhang-hao {
+    width: 100%;
+    text-align: center;
+    margin-top: 2.14285714rem;
+}
+
+#g-body .login-box>div.box>p.zhang-hao>a {
+    color: #3C3C3C;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#g-body .login-box>div.box>div.other-box {
+    position: relative;
+    margin-top: 120px;
+}
+
+#g-body .login-box>div.box>div.other-box>p.other {
+    width: 10rem;
+    font-size: 16px;
+    display: block;
+    background-color: #EFEFF4;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#g-body .login-box>div.box>div.other-box>p.method {
+    width: 100%;
+    display: flex;
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid #E5E5E5;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+#g-body .login-box>div.box>div.other-box>p.method>a>span.iconfont {
+    font-size: 18px;
+}
+
+#g-body .login-box>div.box>div.other-box>p.method>a>span.font {
+    color: #3C3C3C;
+    font-size: 16px;
+}
+
+
+/* ----------------登录部分--------------------- */

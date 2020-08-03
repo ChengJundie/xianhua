@@ -1,0 +1,69 @@
+/* ------------头部--------------- */
+#g-header a{
+	color: #3C3C3C;
+}
+
+/* ------------头部--------------- */
+
+/* -------------主体部分开始------------- */
+#g-body>div.box{
+	width: 90%;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+#g-body>div.box>p.font{
+	color: #3C3C3C;
+}
+
+#g-body>div.box>p.inp>input{
+	color: #232628;
+	border: none;
+	font-size: 16px;
+	background-color: #EFEFF4;
+	border-bottom: 2px solid #E9ECF0;
+}
+#g-body>div.box>p.inp>a>span.icon-yanjing_bi{
+	font-size: 1.125rem;
+	color: #3C3C3C;
+	display: block;
+}
+#g-body>div.box>p.inp{
+	position: relative;
+}
+#g-body>div.box>p.inp>a{
+	position: absolute;
+	top: 0.5rem;
+	right: 1.25rem;
+}
+#g-body>div.box>p.inp>a>span.icon-yanjing{
+	font-size: 1.125rem;
+	color: #3C3C3C;
+	display: none;
+}
+#g-body>div.box>p.butt>input{
+	width: 100%;
+	height: 3rem;
+	border-radius: 1.5rem;
+	background-color: #ff734c;
+	border: 1px solid #ff734c;
+	text-align: center;
+	color: #fff;
+	font-size: 1.21428571rem;
+	margin-top: 20px;
+}
+#g-body>div.box>p.zhang-hao{
+	width: 100%;
+	text-align: center;
+	margin-top: 2.14285714rem;	
+}
+#g-body>div.box>p.zhang-hao>a{
+	font-size: 16px;
+	color: #3C3C3C;
+}
+
+
+
+
+
+
+/* -------------主体部分结束------------- */

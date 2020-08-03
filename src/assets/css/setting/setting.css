@@ -1,0 +1,67 @@
+#g-header a{
+	color: #3C3C3C;
+}
+#g-body{
+	
+}
+#g-body>ul{
+	width: 96%;
+	margin: 0rem auto;
+	background-color: transparent;
+}
+#g-body>ul::before{
+	background-color: transparent;
+}
+#g-body>ul>li{
+	margin-top: 0.625rem;
+	margin-bottom: 0.625rem;
+	background-color: #fff;
+	border-radius: 0.3125rem;
+	font-size: 0.8125rem;
+}
+#g-body>ul>li::after{
+	background-color: transparent;
+}
+#g-body>ul>li>a::after{
+	color: #3C3C3C;
+}
+#g-body>ul>li:nth-of-type(5)>a>span{
+	font-size: 0.6875rem;
+	float: right;
+	padding-right: 1.25rem;
+}
+#g-body>ul>li:nth-of-type(6)>a>span{
+	font-size: 0.6875rem;
+	float: right;
+	padding-right: 1.25rem;
+}
+#g-body>ul>li:last-child>a::after{
+	content: '';
+}
+#g-body>ul>li:last-child>a>div{
+	height: 1.25rem;
+	
+}
+#g-body>ul>li:last-child>a>div>div{
+	width: 1.25rem;
+	height: 1.25rem;
+	top: -0.125rem;
+	left: 0.3125rem;
+}
+#g-body>div.loginout{
+	width: 40%;
+	height: 1.875rem;
+	line-height: 1.875rem;
+	background-color: #394D3F;
+	margin: 0rem auto;
+	margin-top:1.875rem;
+	text-align: center;
+}
+#g-body>div.loginout>input{
+	height: 1.875rem;
+	margin: 0rem auto;
+	border: none;
+	outline: none;
+	background-color: #394D3F;
+	color: #fff;
+}

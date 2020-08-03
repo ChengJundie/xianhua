@@ -1,0 +1,6 @@
+#g-header>a{
+	color: #3C3C3C;
+}
+#g-header>a>span{
+	float: right;
+}

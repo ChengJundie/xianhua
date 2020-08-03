@@ -1,0 +1,610 @@
+body {
+    background-color: #fff;
+}
+
+
+/* --------------左边开始------------------------ */
+
+.mui-content {
+    background-color: white;
+}
+
+.mui-content .left {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    background-color: white;
+    border-top: 0.0625rem solid #CCCCCC;
+    border-right: 0.0625rem solid #CCCCCC;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+
+.mui-content .left ul {
+    margin-top: 1.25rem;
+    width: 100%;
+}
+
+.mui-content .left ul li {
+    text-align: center;
+    width: 100%;
+    height: 2.1875rem;
+}
+
+.mui-content .left ul li a {
+    color: #3C3C3C;
+    font-size: 0.8125rem;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.mui-content .left ul li a.active span {
+    display: block;
+    width: 0.1875rem;
+    height: 1.25rem;
+    background-color: #FF734C;
+    float: left;
+    position: absolute;
+    top: -0.1875rem;
+    left: 0rem;
+}
+
+.mui-content .left ul li a.active {
+    color: #FF734C;
+}
+
+
+/* --------------左边结束------------------------ */
+
+
+/* --------------右边开始------------------------- */
+
+.mui-content #right {
+    width: 75%;
+    float: left;
+    border-top: #000000;
+    margin-left: 25%;
+    background-color: white!important;
+}
+
+
+/* --------热门推荐开始----------------- */
+
+
+/* 
+.mui-content #right #hot-recommend {
+    display: block;
+}
+
+.mui-content #right #hot-recommend .hot-recommend {
+    width: 90%;
+    margin: 0rem auto;
+}
+
+.mui-content #right #hot-recommend .hot-recommend>p {
+    margin-top: 0.625rem;
+}
+
+.mui-content #right #hot-recommend .hot-recommend>p>a>img {
+    width: 100%;
+}
+
+.mui-content #right #hot-recommend .hot-recommend .nav {
+    border-radius: 0.625rem;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.mui-content #right #hot-recommend .hot-recommend ul {
+    margin-top: 0.625rem;
+    background-color: white;
+}
+
+.mui-content #right #hot-recommend .hot-recommend ul::before {
+    background-color: #fff;
+}
+
+.mui-content #right #hot-recommend .hot-recommend ul::after {
+    background-color: #fff;
+}
+
+.mui-content #right #hot-recommend .hot-recommend ul li {
+    width: 33%;
+}
+
+.mui-content #right #hot-recommend .hot-recommend ul li a {
+    display: block;
+}
+
+.mui-content #right #hot-recommend .hot-recommend ul li a img {
+    width: 80%;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
+.mui-content #right #hot-recommend .hot-recommend .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
+    width: 100%;
+    text-align: center;
+    font-size: 0.6875rem;
+    color: #3C3C3C;
+} */
+
+
+/* --------热门推荐结束----------------- */
+
+
+/* --------鲜花开始--------------------- */
+
+.mui-content #right #flower .flower {
+    width: 90%;
+    margin: 0rem auto;
+    margin-top: 0.625rem;
+}
+
+.mui-content #right #flower .flower>p {
+    margin-top: 0.625rem;
+}
+
+.mui-content #right #flower .flower>p>a>img {
+    width: 100%;
+}
+
+.mui-content #right #flower .flower>div.obj {
+    border-radius: 0.625rem;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.mui-content #right #flower .flower>div.obj>p {
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+}
+
+.mui-content #right #flower .flower>div.obj>p>span:first-child {
+    float: left;
+    color: #3C3C3C;
+    padding-left: 0.625rem;
+}
+
+.mui-content #right #flower .flower>div.obj>p>span:nth-child(2) {
+    float: right;
+    font-size: 0.6875rem;
+    padding-right: 0.625rem;
+}
+
+.mui-content #right #flower .flower>div.obj>p>span:nth-child(3) {
+    float: right;
+    font-size: 0.6875rem;
+    padding-right: 0.3125rem;
+}
+
+.mui-content #right #flower .flower>div.obj>ul {
+    background-color: white;
+}
+
+.mui-content #right #flower .flower>div.obj>ul::before,
+.mui-content #right #flower .flower>div.obj>ul::after {
+    background-color: #fff;
+}
+
+.mui-content #right #flower .flower>div.obj>ul li {
+    width: 33%;
+}
+
+.mui-content #right #flower .flower>div.obj>ul li a {
+    display: block;
+}
+
+.mui-content #right #flower .flower>div.obj ul li a img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.mui-content #right #flower .flower>div.obj ul li a div {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #3C3C3C;
+}
+
+
+/* -----------------场合开始---------------------- */
+
+.mui-content #right #flower .flower>div.changhe {
+    border-radius: 0.625rem;
+    margin-top: 0.9375rem;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.mui-content #right #flower .flower>div.color {
+    margin-bottom: 3.75rem;
+}
+
+.mui-content #right #flower .flower>div.changhe>p {
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+    color: #3C3C3C;
+    padding-left: 0.625rem;
+}
+
+.mui-content #right #flower .flower>div.changhe>ul::before,
+.mui-content #right #flower .flower>div.changhe>ul::after {
+    background-color: #fff;
+}
+
+.mui-content #right #flower .flower>div.changhe>ul>li {
+    width: 33%;
+}
+
+.mui-content #right #flower .flower>div.changhe>ul>li>a {
+    display: block;
+}
+
+.mui-content #right #flower .flower>div.changhe>ul>li>a>img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.mui-content #right #flower .flower>div.changhe>ul>li>a>div {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #3C3C3C;
+}
+
+
+/* --------------场合结束------------ */
+
+
+/* --------鲜花结束--------------------- */
+
+
+/* -------------------永生花开始---------------------- */
+
+.mui-content #right #forever {
+    display: none;
+}
+
+.mui-content #right #forever .forever {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 0.9375rem;
+}
+
+.mui-content #right #forever .forever>p>a>img {
+    width: 100%;
+}
+
+.mui-content #right #forever .forever>div.obj {
+    border-radius: 0.625rem;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.3);
+    background-color: white;
+    margin-top: 0.625rem;
+}
+
+.mui-content #right #forever .forever>div.classify {
+    margin-bottom: 3.75rem;
+}
+
+.mui-content #right #forever .forever>div.obj>p {
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+    color: #3C3C3C;
+    padding-left: 0.625rem;
+}
+
+.mui-content #right #forever .forever>div.obj>p>span:first-child {
+    float: left;
+    color: #3C3C3C;
+}
+
+.mui-content #right #forever .forever>div.obj>p>span:nth-child(2) {
+    float: right;
+    font-size: 0.6875rem;
+    padding-right: 0.625rem;
+}
+
+.mui-content #right #forever .forever>div.obj>p>span:nth-child(3) {
+    float: right;
+    font-size: 0.75rem;
+    padding-right: 0.3125rem;
+}
+
+.mui-content #right #forever .forever>div.obj>ul::before,
+.mui-content #right #forever .forever>div.obj>ul::after {
+    background-color: white;
+}
+
+.mui-content #right #forever .forever>div.obj>ul li {
+    width: 33%;
+}
+
+.mui-content #right #forever .forever>div.obj>ul li a {
+    display: block;
+    text-align: center;
+}
+
+.mui-content #right #forever .forever>div.obj ul li a img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.mui-content #right #forever .forever>div.obj ul li a div {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #3C3C3C;
+}
+
+
+/* -------------------永生花结束---------------------- */
+
+
+/* -------------------蛋糕开始---------------------- */
+
+.mui-content #right #cark {
+    display: none;
+}
+
+.mui-content #right #cark .cark {
+    width: 90%;
+    margin: 0rem auto;
+    margin-top: 0.625rem;
+}
+
+.mui-content #right #cark .cark>p {
+    width: 100%;
+}
+
+.mui-content #right #cark .cark>p>a>img {
+    width: 100%;
+}
+
+.mui-content #right #cark .cark>div.brand {
+    border-radius: 0.625rem;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.3);
+    background-color: white;
+    margin-top: 0.625rem;
+}
+
+.mui-content #right #cark .cark>div.brand>ul::before,
+.mui-content #right #cark .cark>div.brand>ul::after {
+    background-color: white;
+}
+
+.mui-content #right #cark .cark>div.brand>ul>li {
+    width: 33%;
+    border: 0.0625rem solid #F7F9FA;
+}
+
+.mui-content #right #cark .cark>div.brand>ul li a {
+    display: block;
+}
+
+.mui-content #right #cark .cark>div.brand>ul li a img {
+    width: 100%;
+}
+
+
+/* -------------------蛋糕结束---------------------- */
+
+
+/* --------------------特色礼品开始------------ */
+
+.mui-content #right #gift {
+    display: none;
+}
+
+.mui-content #right #gift .gift {
+    width: 90%;
+    margin: 0rem auto;
+    margin-top: 0.625rem;
+}
+
+.mui-content #right #gift .gift>p {
+    width: 100%;
+}
+
+.mui-content #right #gift .gift>p>a>img {
+    width: 100%;
+}
+
+.mui-content #right #gift .gift>div.brand {
+    border-radius: 0.625rem;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.3);
+    background-color: white;
+    margin-top: 0.625rem;
+}
+
+.mui-content #right #gift .gift>div.brand>p {
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+    color: #3C3C3C;
+    padding-left: 0.625rem;
+}
+
+.mui-content #right #gift .gift>div.brand ul::before,
+.mui-content #right #gift .gift>div.brand ul::after {
+    background-color: white;
+}
+
+.mui-content #right #gift .gift>div.brand ul li {
+    width: 33%;
+    border: 0.0625rem solid #F7F9FA;
+}
+
+.mui-content #right #gift .gift>div.brand ul li a {
+    display: block;
+}
+
+.mui-content #right #gift .gift>div.brand ul li a img {
+    width: 100%;
+}
+
+.mui-content #right #gift .gift>div.obj {
+    border-radius: 0.625rem;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.3);
+    background-color: white;
+    margin-top: 0.9375rem;
+    margin-bottom: 3.75rem;
+}
+
+.mui-content #right #gift .gift>div.obj>p {
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+    color: #3C3C3C;
+    padding-left: 0.625rem;
+}
+
+.mui-content #right #gift .gift>div.obj>ul::before,
+.mui-content #right #gift .gift>div.obj>ul::after {
+    background-color: #fff;
+}
+
+.mui-content #right #gift .gift>div.obj>ul li {
+    width: 33%;
+}
+
+.mui-content #right #gift .gift>div.obj>ul li a {
+    display: block;
+}
+
+.mui-content #right #gift .gift>div.obj>ul li a img {
+    width: 80%;
+}
+
+.mui-content #right #gift .gift>div.obj>ul li a div {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #3C3C3C;
+}
+
+
+/* --------------------特色礼品结束------------ */
+
+
+/* --------------------礼篮开始----------------- */
+
+.mui-content #right #blakse {
+    display: none;
+}
+
+.mui-content #right #blakse .blakse {
+    width: 90%;
+    margin: 0rem auto;
+    margin-top: 0.625rem;
+}
+
+.mui-content #right #blakse .blakse>p>a>img {
+    width: 100%;
+}
+
+.mui-content #right #blakse .blakse>div.lan {
+    border-radius: 0.625rem;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.3);
+    background-color: white;
+    margin-top: 0.9375rem;
+}
+
+.mui-content #right #blakse .blakse>div.lan>p {
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+    color: #3C3C3C;
+    padding-left: 0.625rem;
+}
+
+.mui-content #right #blakse .blakse>div.lan>ul::before,
+.mui-content #right #blakse .blakse>div.lan>ul::after {
+    background-color: #fff;
+}
+
+.mui-content #right #blakse .blakse>div.lan>ul>li {
+    width: 33%;
+}
+
+.mui-content #right #blakse .blakse>div.lan>ul>li>a {
+    display: block;
+}
+
+.mui-content #right #blakse .blakse>div.lan>ul>li>a>img {
+    width: 80%;
+    display: block;
+    margin-left: 0.3125rem;
+}
+
+.mui-content #right #blakse .blakse>div.lan>ul>li>a>div {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #3C3C3C;
+}
+
+
+/* --------------------礼篮结束----------------- */
+
+
+/* --------------------绿色花卉开始--------------- */
+
+.mui-content #right #green-tree {
+    display: none;
+}
+
+.mui-content #right #green-tree .green-tree {
+    width: 90%;
+    margin: 0rem auto;
+    margin-top: 0.625rem;
+    margin-bottom: 3.75rem;
+}
+
+.mui-content #right #green-tree .green-tree>p>a>img {
+    width: 100%;
+}
+
+.mui-content #right #green-tree .green-tree>div.tree {
+    border-radius: 0.625rem;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.3);
+    background-color: white;
+    margin-top: 0.9375rem;
+}
+
+.mui-content #right #green-tree .green-tree>div.tree>p {
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+    color: #3C3C3C;
+    padding-left: 0.625rem;
+}
+
+.mui-content #right #green-tree .green-tree>div.tree ul::before,
+.mui-content #right #green-tree .green-tree>div.tree ul::after {
+    background-color: #fff;
+}
+
+.mui-content #right #green-tree .green-tree>div.tree ul li {
+    width: 33%;
+}
+
+.mui-content #right #green-tree .green-tree>div.tree ul li a {
+    display: block;
+}
+
+.mui-content #right #green-tree .green-tree>div.tree ul li a img {
+    width: 80%;
+    display: block;
+}
+
+.mui-content #right #green-tree .green-tree>div.tree ul li a div {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #3C3C3C;
+}
+
+
+/* --------------------绿色花卉结束--------------- */
+
+
+/* --------------右边结束------------------------- */

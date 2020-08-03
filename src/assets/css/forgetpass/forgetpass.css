@@ -1,0 +1,59 @@
+#g-body {
+    background-color: #fff;
+    height: 35.625rem;
+}
+
+#g-header a {
+    color: #3C3C3C;
+}
+
+#g-body .box p.inp:first-child {
+    margin-top: 2.5rem;
+}
+
+#g-body .box p.inp {
+    position: relative;
+}
+
+#g-body .box p.inp>input {
+    color: #232628;
+    border: none;
+    font-size: 16px;
+    background-color: #EFEFF4;
+    border-bottom: 2px solid #E9ECF0;
+}
+
+#g-body .box p.inp>span {
+    font-size: 1.125rem;
+    color: #3C3C3C;
+    position: absolute;
+    top: 0.625rem;
+    right: 1.25rem;
+}
+
+#g-body .box p.inp>span.icon-yanjing_b {
+    display: block;
+}
+
+#g-body .box p.inp>span.icon-yanjing {
+    display: none;
+}
+
+#g-body .box p.butt {
+    width: 90%;
+    margin: 0rem auto;
+    margin-top: 20px;
+    box-sizing: content-box;
+    height: 1.875rem;
+    line-height: 1.875rem;
+}
+
+#g-body .box p.butt>input {
+    width: 100%;
+    border-radius: 1.5rem;
+    background-color: #ff734c;
+    border: 1px solid #ff734c;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}

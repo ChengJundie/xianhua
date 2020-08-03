@@ -1,0 +1,16 @@
+.mui-bar .mui-title{
+	left: 0;
+	right: 0;
+	background-color: #435448;
+	line-height:2.75rem ;
+}
+.mui-bar .mui-title img{
+	width: 40%;
+	vertical-align: middle;
+}
+.mui-bar .mui-title span.iconfont{
+	padding-left: 0.625rem;
+	padding-right: 0.625rem;
+	font-size: 1.5rem;
+	color: #fff;
+}

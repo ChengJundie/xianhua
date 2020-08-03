@@ -1,0 +1,232 @@
+/* 适配 */
+
+
+/*
+ * 16  	320
+ * 		411
+ * (411/320)*16=18
+ * */
+
+
+/* // iphone5 竖屏 横屏 */
+
+@media only screen and (device-width:320px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (device-width:568px) {
+    html {
+        font-size: 28.44px;
+    }
+}
+
+@media only screen and (device-width:360px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+
+/* // iphone 6 7 8 竖屏跟宽屏 这里有个竖屏跟宽屏的适配问题 */
+
+
+/* @media only screen and (device-width:375px) {
+    html {
+        font-size: 18.75px;
+    }
+}
+
+@media only screen and (device-width:667px) {
+    html {
+        font-size: 33.35px;
+    }
+}
+
+@media only screen and (device-width:411px) {
+    html {
+        font-size: 20.55px;
+    }
+}
+
+@media only screen and (device-width:414px) {
+    html {
+        font-size: 20.7px;
+    }
+}
+
+@media only screen and (device-width:768px) {
+    html {
+        font-size: 38.4px;
+    }
+}
+
+@media only screen and (device-width:1024px) {
+    html {
+        font-size: 51.2px;
+    }
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    background: #E9ECF0;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+li {
+    list-style: none;
+}
+
+.clearbox::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+
+/* ---------------底部样式开始----------------------- */
+
+#g-footer {
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+    right: 0rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: white;
+    height: 3.125rem;
+    z-index: 999;
+}
+
+#g-footer a {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+#g-footer a span {
+    display: block;
+    color: #3C3C3C;
+}
+
+#g-footer a.active span {
+    color: #ff0000;
+}
+
+#g-footer a:nth-of-type(4) {
+    position: relative;
+}
+
+#g-footer a:nth-of-type(4)>i {
+    width: 0.75rem;
+    height: 0.75rem;
+    text-align: center;
+    line-height: 0.75rem;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.3125rem;
+    right: 0.1875rem;
+    font-size: 0.625rem;
+    font-style: normal;
+}
+
+#g-footer a span.iconfont {
+    margin-top: 0.625rem;
+    font-size: 1.25rem;
+    color: #3C3C3C;
+}
+
+#g-footer a:nth-of-type(2) span.iconfont {
+    font-size: 1.375rem;
+}
+
+#g-footer a:nth-of-type(4) span.iconfont {
+    font-size: 1.4375rem;
+}
+
+#g-footer a:nth-of-type(3) span.iconfont {
+    font-size: 1.25rem;
+}
+
+#g-footer>a.active span {
+    color: red!important;
+}
+
+
+/* ---------------底部样式结束----------------------- */
+
+
+/* ----------固定区域------------- */
+
+.fixed {
+    width: 1.875rem;
+    height: 1.875rem;
+    background-color: white;
+    position: fixed;
+    bottom: 4.375rem;
+    right: 1.25rem;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.3);
+    line-height: 1.875rem;
+    z-index: 999;
+}
+
+.fixed>a>span {
+    font-size: 1.5625rem;
+    margin-top: 0.1875rem;
+    font-weight: 500;
+    color: #3C3C3C;
+}
+
+.fixed1 {
+    width: 1.875rem;
+    height: 1.875rem;
+    background-color: white;
+    position: fixed;
+    bottom: 6.25rem;
+    right: 1.875rem;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.3);
+    line-height: 1.875rem;
+    z-index: 999;
+}
+
+.fixed1>a>span {
+    font-size: 1.875rem;
+    margin-top: 0.0625rem;
+    font-weight: 500;
+    color: #3C3C3C;
+}
+
+
+/* ----------固定区域------------- */

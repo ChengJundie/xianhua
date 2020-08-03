@@ -1,0 +1,194 @@
+/* ------------商品列表开始--------------- */
+
+#g-body .goods-list {
+    width: 100%;
+    margin-bottom: 1.875rem;
+}
+
+#g-body .goods-list ul {
+    width: 100%;
+    margin: 0rem auto;
+}
+
+#g-body .goods-list ul.active {
+    background-color: #fff;
+    text-align: center;
+    height: 6.25rem;
+    line-height: 6.25rem;
+}
+
+#g-body .goods-list ul li {
+    width: 100%;
+    border-top: 0.0625rem solid #E9ECF0;
+    border-bottom: 0.0625rem solid #E9ECF0;
+    padding: 0.5rem 0.625rem;
+    background-color: white;
+    height: 100%;
+    padding-bottom: 1.25rem;
+}
+
+#g-body .goods-list ul li div.img-box>p {
+    width: 15%;
+}
+
+#g-body .goods-list ul li div.img-box>p>input {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin-top: 1.875rem;
+    margin-left: 0.625rem;
+}
+
+#g-body .goods-list ul li div.img-box>a {
+    width: 35%;
+    display: block;
+    float: left;
+    padding: 0px 0.625rem;
+}
+
+#g-body .goods-list ul li div.img-box>a>img {
+    width: 100%;
+}
+
+#g-body .goods-list ul li div.cont div:nth-of-type(1) a {
+    color: #3C3C3C;
+}
+
+#g-body .goods-list ul li div.cont div:nth-of-type(1) span {
+    font-size: 1rem;
+    float: right;
+    padding-right: 0.625rem;
+}
+
+#g-body .goods-list ul li div.cont div.num>p.descp {
+    margin-top: 0.9375rem;
+    height: 1.875rem;
+}
+
+#g-body .goods-list ul li div.cont div.num>p.descp>span.mui-icon {
+    font-size: 0.6875rem;
+}
+
+#g-body .goods-list ul li div.cont div.num>p.descp>span:nth-of-type(1) {
+    font-size: 14px;
+    color: #3C3C3C;
+    float: left;
+}
+
+#g-body .goods-list ul li div.cont div.num>p.descp>span:nth-of-type(2) {
+    margin-left: 0.9375rem;
+}
+
+#g-body .goods-list ul li div.cont div.num>p.descp>span:nth-of-type(2),
+#g-body .goods-list ul li div.cont div.num>p.descp>span:nth-of-type(3) {
+    width: 1.125rem;
+    height: 1.25rem;
+    text-align: center;
+    line-height: 1.25rem;
+    display: block;
+    float: left;
+    border: 0.0625rem solid #E9ECF0;
+    background-color: #F7F9FA;
+    cursor: pointer;
+}
+
+#g-body .goods-list ul li div.cont div.num>p.price {
+    color: #FF0000;
+    font-size: 1rem;
+}
+
+#g-body .goods-list ul li div.cont div.num>p.descp>input {
+    width: 2.1875rem;
+    height: 0.9375rem;
+    border: none;
+    border-top: 0.0625rem solid #E9ECF0;
+    border-bottom: 0.0625rem solid #E9ECF0;
+    background-color: #F7F9FA;
+    float: left;
+    color: #3C3C3C;
+}
+
+
+/* ------------商品列表结束--------------- */
+
+
+/* -------------相似商品开始--------------- */
+
+#g-body {
+    margin-bottom: 6.875rem;
+}
+
+#g-body>div.similar {
+    width: 100%;
+    height: 11.875rem;
+    background-color: white;
+    overflow: hidden;
+}
+
+#g-body>div.similar .list {
+    width: 94%;
+    margin: 0rem auto;
+}
+
+#g-body>div.similar .list ul {
+    margin-top: 0.625rem;
+}
+
+#g-body>div.similar .list ul li {
+    float: left;
+    font-size: 0.75rem;
+    padding: 0px 0.625rem;
+}
+
+#g-body>div.similar .list ul li:first-child {
+    border-right: 0.0625rem solid #CCCCCC;
+}
+
+#g-body>div.similar .list ul li.active {
+    color: #FF0000;
+}
+
+#g-body>div.similar .box {
+    margin-top: 2.8125rem;
+}
+
+#g-body>div.similar .box>.box1 {
+    display: block;
+}
+
+#g-body>div.similar .box>.box2 {
+    display: none;
+}
+
+#g-body>div.similar .box>.mui-scroll-wrapper .mui-scroll>a {
+    padding: 0 0;
+}
+
+#g-body>div.similar .box>.mui-scroll-wrapper .mui-scroll>a>img {
+    margin-bottom: -0.5rem;
+}
+
+#g-body>div.similar .box>.mui-scroll-wrapper .mui-scroll>a>p.font {
+    width: 6.875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #3C3C3C;
+    height: 1.5625rem;
+    margin-bottom: -0.3125rem;
+}
+
+#g-body>div.similar .box>.mui-scroll-wrapper .mui-scroll>a>p.price {
+    color: #FF0000;
+    height: 1.25rem;
+}
+
+#g-body>div.similar .box>.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+    color: #fff;
+    border-bottom: none;
+}
+
+
+/* -------------相似商品结束--------------- */
